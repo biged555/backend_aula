@@ -1,0 +1,6 @@
+node_modules/
+dist/
+changes_tobe_made/
+.env
+.env.*
+!.env.example
