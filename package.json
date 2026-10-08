@@ -11,13 +11,13 @@
     "ordering",
     "microservice"
   ],
-  "homepage": "https://github.com/biged555/backend_aula#readme",
+  "homepage": "https://github.com/matthewrpereira/restaurant_ordering_system_sjp#readme",
   "bugs": {
-    "url": "https://github.com/biged555/backend_aula/issues"
+    "url": "https://github.com/matthewrpereira/restaurant_ordering_system_sjp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/biged555/backend_aula.git"
+    "url": "git+https://github.com/matthewrpereira/restaurant_ordering_system_sjp.git"
   },
   "license": "ISC",
   "author": "Mateus R. Pereira",
@@ -30,8 +30,12 @@
     "start": "node dist/server.js"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^26.2.0",
     "tsx": "^4.23.12",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
